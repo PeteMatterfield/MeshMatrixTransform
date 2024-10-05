@@ -7,6 +7,8 @@ For technical artists and 3d scanning artists, often times you need to align two
 
 The RGB landmark points are also saved in the same location as the matrixfile and automatically loaded.
 
+For example, I scan objects using Artec's line of 3d scanning devices. To get the best color renderig though, I'll capture the subject using a cross polarized Sony A7R4 camera and solve a photogrammetry scan using Reality Capture. In order to project Reality Capture's texture onto the structured light model, the model has to be aligned to Reality Capture's registration. I'll export a medium-poly mesh from RC and use this tool to align the structured light mesh to it, export the mesh, then import that transformed mesh into RC for texture projection. 
+
 Note: great for automation pipelines!
 
 # Usage
