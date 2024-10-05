@@ -5,6 +5,8 @@ Python CLI application that aligns one mesh to another using iterative closest p
 
 For technical artists and 3d scanning artists, often times you need to align two different meshes together for texture projection. Think high poly to low poly. If those two meshes have completely different transforms, your projection will fail. If you also do any structured light scanning paired with a photogrammetry solve for RGB, the two resulting meshes will not share the same world space position. This application allows you to match them up.
 
+The RGB landmark points are also saved in the same location as the matrixfile and automatically loaded.
+
 Note: great for automation pipelines!
 
 # Usage
